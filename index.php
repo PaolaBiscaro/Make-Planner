@@ -15,6 +15,10 @@
 
 <body>
    <h1>Faça seus Planners</h1>
+
+   <p id="texto">Nosso site oferece á você um sistema de criar planners, lista de tarefas, anotações e notas num único lugar.<br>
+    Faça seu cadastro e aproveite!</p>
 </body>
+
 
 </html>

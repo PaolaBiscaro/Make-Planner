@@ -1,0 +1,78 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+header {
+   
+    
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+    
+    
+}
+
+#menu{
+    position: relative;
+    height: 100%;
+    width: 300px;
+    background-color: #ccaaee;
+    height: 100vh;
+}
+
+.btn-group-vertical{
+    position:absolute;
+    width: 100%;
+    border-radius: none;
+   
+}
+
+.btn-group-vertical button {
+    background-color: #ccaaee;
+    text-decoration: none;
+    border-color: #ccaaee;
+    text-align: left;
+    height: 100%;
+   padding: 10px;
+  
+    
+}
+
+
+.btn-group-vertical button:hover {
+    text-decoration: none;
+    color:#ffffff;
+    background-color: #ba8de7;
+    border-color: #ba8de7;
+}
+
+#buttonLogout {
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+
+.btn-group-vertical a{
+    position: relative;
+     text-decoration: none;
+     color: #ffffff;
+     margin-left: 40px;
+     
+ }
+ 
+ .btn-group-vertical a:hover{
+     color:#ffffff;
+ }
+
+ .btn-group-vertical i{
+    
+    width: 30px ;
+    
+ }
