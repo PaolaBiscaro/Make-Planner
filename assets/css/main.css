@@ -7,15 +7,10 @@
 }
 
 header {
-   
-    
     color: #ffffff;
     display: flex;
     justify-content: left;
     align-items: left;
-    
-    
-    
 }
 
 #menu{
@@ -39,7 +34,7 @@ header {
     border-color: #ccaaee;
     text-align: left;
     height: 100%;
-   padding: 10px;
+
   
     
 }
@@ -54,6 +49,7 @@ header {
 
 #buttonLogout {
     text-align: center;
+
     
 }
 
@@ -62,16 +58,10 @@ header {
     position: relative;
      text-decoration: none;
      color: #ffffff;
-     margin-left: 40px;
+   
      
  }
  
  .btn-group-vertical a:hover{
      color:#ffffff;
- }
-
- .btn-group-vertical i{
-    
-    width: 30px ;
-    
  }
