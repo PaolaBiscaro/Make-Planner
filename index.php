@@ -20,12 +20,14 @@ include_once CABECALHO;
 </head>
 
 <body>
-    <h1>Faça seus Planners</h1>
+    <div class="container">
+        <h1>Faça seus Planners</h1>
 
-    <p id="texto">Nosso site oferece á você um sistema de criar planners, lista de tarefas, anotações e notas num único lugar.<br>
-        Faça seu cadastro e aproveite!</p>
+        <p id="texto">Nosso site oferece á você um sistema de criar planners, lista de tarefas, anotações e notas num único lugar.<br>
+            Faça seu cadastro e aproveite!</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit, vero inventore, qui ipsum nisi enim error nam earum, ex veniam quidem ducimus labore? Voluptates explicabo dolore distinctio optio eos?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit, vero inventore, qui ipsum nisi enim error nam earum, ex veniam quidem ducimus labore? Voluptates explicabo dolore distinctio optio eos?</p>
+    </div>
 </body>
 
 

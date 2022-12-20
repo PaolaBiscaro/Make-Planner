@@ -21,34 +21,42 @@
 </head>
 
 <header>
-    <nav id="menu">
-        
-            <a href="/index.php"><img src="/assets/img/logo.png" width="300px"></a>
-        
-        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-            <button type="button" class="btn btn-dark"><a href="/index.php"><i class="fa-solid fa-house"></i> Home</a></button>
-            <button type="button" class="btn btn-dark"> <a href="/admin/modelos.php"><i class="fa-solid fa-clipboard"></i> Modelos</a></button>
-            <button type="button" class="btn btn-dark"> <a href="/admin/meusPlanners.php"><i class="fa-solid fa-thumbtack"></i> Meus Planners</a></button>
-            <button type="button" class="btn btn-dark"> <a href="/admin/novoPlanner.php"> <i class="fa-solid fa-pen-to-square"></i> Novo Planner</a></button>
-            <button type="button" class="btn btn-dark"><a href="/admin/configuracoes.php"><i class="fa-solid fa-gear"></i> Configurações</a></button>
-            <button type="button" class="btn btn-dark"><a href="/admin/ajuda.php"><i class="fa-regular fa-circle-question"></i> Ajuda</a></button>
-
-            
-            <button id="buttonLogout" type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i> Log out</button>
-        
-        </div>
-    </nav>
     <nav>
-        <div>
-            <label></label>
-            <i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Pesquisar...">
+        <div id="menu">
+            <a href="/index.php"><img src="/assets/img/logo.png" width="300px"></a>
+
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-dark"><a href="/index.php"><i class="fa-solid fa-house"></i> Home</a></button>
+                <button type="button" class="btn btn-dark"> <a href="/admin/modelos.php"><i class="fa-solid fa-clipboard"></i> Modelos</a></button>
+                <button type="button" class="btn btn-dark"> <a href="/admin/meusPlanners.php"><i class="fa-solid fa-thumbtack"></i> Meus Planners</a></button>
+                <button type="button" class="btn btn-dark"> <a href="/admin/novoPlanner.php"> <i class="fa-solid fa-pen-to-square"></i> Novo Planner</a></button>
+                <button type="button" class="btn btn-dark"><a href="/admin/configuracoes.php"><i class="fa-solid fa-gear"></i> Configurações</a></button>
+                <button type="button" class="btn btn-dark"><a href="/admin/ajuda.php"><i class="fa-regular fa-circle-question"></i> Ajuda</a></button>
+
+
+                <button id="buttonLogout" type="button" class="btn btn-dark"><i class="fa-solid fa-right-to-bracket"></i> Log out</button>
+            </div>
         </div>
-        <div>
-            <img>
-            <p>Nome Usuario <br>
-                email@email.com</p>
-            <i class="fa-solid fa-bell-slash"></i>
-            <i class="fa-solid fa-bell"></i>
+
+        <div id="cabecalho">
+            <div class="d-flex ">
+                <div class="p-2 flex-fill">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="iconePesquisa"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input id="txtPesquisa" type="text" class="form-control" placeholder="Pesquisar..." aria-label="Username" aria-describedby="basic-addon1">
+                        <!-- <input id="txtPesquisa" type="text" placeholder="Pesquisar..."> -->
+                    </div>
+                </div>
+
+                <div class="p-2 flex-fill d-flex justify-content-end">
+
+                    <img id="imgPerfil" src="/assets/img/iconeperfil.png" width="80px">
+                    <p>Nome Usuario <br>
+                        email@email.com</p>
+                    <i class="fa-solid fa-bell-slash"></i>
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
         </div>
     </nav>
 </header>
