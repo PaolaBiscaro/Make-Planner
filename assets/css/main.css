@@ -14,17 +14,19 @@ header {
 }
 
 #menu{
-    position: relative;
+    position: fixed;
     height: 100%;
     width: 300px;
     background-color: #ccaaee;
     height: 100vh;
+   
 }
 
 .btn-group-vertical{
     position:absolute;
     width: 100%;
     border-radius: none;
+    
    
 }
 
@@ -34,9 +36,7 @@ header {
     border-color: #ccaaee;
     text-align: left;
     height: 100%;
-
-  
-    
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -49,8 +49,8 @@ header {
 
 #buttonLogout {
     text-align: center;
-
-    
+    position: relative;
+    margin-top: 130px;
 }
 
 
@@ -58,10 +58,14 @@ header {
     position: relative;
      text-decoration: none;
      color: #ffffff;
-   
+     margin-left: 40px;
      
  }
  
  .btn-group-vertical a:hover{
      color:#ffffff;
+ }
+
+ .btn-group-vertical a i {
+    padding-right: 15px;
  }
