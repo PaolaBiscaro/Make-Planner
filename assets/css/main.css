@@ -1,0 +1,102 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+
+
+#cabecalho {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+
+    
+}
+
+#iconePesquisa{
+   margin-left: 350px;
+    border-top-left-radius: 50px;
+    border-end-start-radius: 50px;
+    padding-left: 10px;
+    color: #b6b6b6;
+    text-align: right;
+  
+}
+
+
+
+#txtPesquisa{
+    background-color: #ebebeb;
+    border-top-right-radius:50px;
+    border-end-end-radius: 50px; 
+    border: none;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#imgPerfil{
+    border-radius: 100%;
+}
+
+
+
+
+#menu {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: #ccaaee;
+    height: 100vh;
+
+}
+
+.btn-group-vertical {
+    position: absolute;
+    width: 100%;
+    border-radius: none;
+
+
+}
+
+.btn-group-vertical button {
+    background-color: #ccaaee;
+    text-decoration: none;
+    border-color: #ccaaee;
+    text-align: left;
+    height: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.btn-group-vertical button:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ba8de7;
+    border-color: #ba8de7;
+}
+
+#buttonLogout {
+    text-align: center;
+    position: relative;
+    margin-top: 130px;
+}
+
+
+.btn-group-vertical a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 40px;
+
+}
+
+.btn-group-vertical a:hover {
+    color: #ffffff;
+}
+
+.btn-group-vertical a i {
+    padding-right: 15px;
+}
